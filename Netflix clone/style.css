@@ -1,0 +1,376 @@
+*{
+    margin:0;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    border: border-box;
+    background-color: rgb(0, 0, 0);
+}
+.mainphoto{
+    background-image: url('herosection.png');
+    width: 100%;
+    height: 580px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.text{
+    background-image: url('text.png');
+    width:500px;
+    height: 300px;
+    background-repeat: no-repeat;
+    margin-top: -550px;
+    background-color: transparent;
+    background-size: 500px;
+    margin-left: 50px;
+    position: absolute;
+}
+.desp p{
+    color: white;
+    background-color: transparent;
+    position: absolute;
+    margin-top: -300px; 
+    margin-left: 50px;
+    font-weight: 600;
+    text-shadow: 2px 2px 4px rgba(0,0,0,.45);
+    font-size: 18px;
+    
+}
+.sub p{
+    color: white;
+    position: absolute;
+    font-weight: 600;
+    margin-top: -100px;
+    margin-left: 50px;
+    background-color: transparent;
+    font-size: 20px;
+    cursor: pointer;
+}
+.playbtn{
+    margin-top: -210px;
+    margin-left: 50px; 
+    background-color:#fff;
+    position: absolute;
+    color:black;
+    border-radius: 4px;
+    font-weight: 650;
+    border:none;
+    outline:none;
+    width: 110px;
+    height:40px ;
+    font-size: 15px;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(0,0,0,.45);
+}
+.infobtn{
+    margin-top: -210px;
+    margin-left:  170px; 
+    background-color:rgb(130, 130, 130);
+    position: absolute;
+    color:white;
+    border-radius: 4px;
+    font-weight: 650;
+    border:none;
+    outline:none;
+    width: 130px;
+    height:40px ;
+    font-size: 15px;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(0,0,0,.45);
+}
+.playbtn:hover{
+    background-color: rgb(198, 198, 198);
+}
+.infobtn:hover{
+    background-color:transparent;
+}
+.logo{
+  background-image: url("logo2.webp");
+  background-size: 140px  ;
+  height: 70px;
+  width: 150px;
+  background-repeat: no-repeat;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+.top{
+    display: flex;
+    margin-left: 100px;
+    margin-top: -45px;
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+    margin-left: 160px;
+    height: 35px;
+}
+.top p{
+    margin-left: 20px;
+    cursor: pointer;
+}
+.icon{
+    color: white;
+    margin-left: 500px;
+    margin-top: -3px;
+    cursor: pointer;
+}
+.bell{
+    margin-left: 15px;
+    margin-top: 1px;
+    cursor: pointer;
+}
+.acclogo{
+    background:url('acclogo.png');
+    width:50px;
+    height: 70px;
+    background-size: 35px;
+    background-repeat: no-repeat;
+    margin-left: 15px;
+    margin-top: -10px;
+    cursor: pointer;
+}
+.arrow{
+    margin-top: 3px;
+    margin-right: 11;
+}
+.pics{
+    cursor: pointer;
+}
+.pic1{
+    background-image: url('jjk.jpg');
+    width: 210px;
+    height: 119px;
+    background-size: 210px;
+    position: absolute;
+    background-repeat: no-repeat;
+    margin-top: -60px;
+    margin-left: 50px;
+    background-color:transparent;
+    border-radius: 5px;
+}
+.pic2{
+    background-image: url('pe.jpg');
+    width: 210px;
+    height: 119px;
+    background-size: 210px;
+    position: absolute;
+    background-repeat: no-repeat;
+    margin-top: -60px;
+    margin-left: 265px;
+    background-color:transparent;
+    border-radius: 5px;
+}
+.pic3{
+    background-image: url('bc.jpg');
+    width: 210px;
+    height: 119px;
+    background-size: 210px;
+    position: absolute;
+    background-repeat: no-repeat;
+    margin-top: -60px;
+    margin-left: 480px;
+    background-color:transparent;
+    border-radius: 5px;
+}
+.pic4{
+    background-image: url('saiki.jpg');
+    width: 210px;
+    height: 119px;
+    background-size: 210px;
+    position: absolute;
+    background-repeat: no-repeat;
+    margin-top: -60px;
+    margin-left: 695px;
+    background-color:transparent;
+    border-radius: 5px;
+}
+.pic5{
+    background-image: url('st.jpg');
+    width: 210px;
+    height: 119px;
+    background-size: 210px;
+    position: absolute;
+    background-repeat: no-repeat;
+    margin-top: -60px;
+    margin-left: 910px;
+    background-color:transparent;
+    border-radius: 5px;
+}
+.pic6{
+    background-image: url('witcher.jpg');
+    width: 210px;
+    height: 119px;
+    background-size: 210px;
+    position: absolute;
+    background-repeat: no-repeat;
+    margin-top: -60px;
+    margin-left: 1125px;
+    background-color:transparent;
+    border-radius: 5px;
+}
+.next{
+    position:absolute;
+    margin-left: 675px;
+    width:100%px;
+    background-color: black;
+    cursor: pointer;
+}
+.next1{
+    position:absolute;
+    margin-left: 675px;
+    margin-top: 80px;
+    width:100%px;
+    background-color: black;
+    cursor: pointer;
+}
+.pics2 p{
+    color: white;
+    position: absolute;
+    font-weight: 600;
+    margin-top: 70px;
+    margin-left: 50px;
+    background-color: transparent;
+    font-size: 20px;
+    cursor: pointer;
+}
+.pc1{
+    background-image: url('dp.png');
+    width: 210px;
+    height: 119px;
+    background-size: 210px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-color:transparent;
+    border-radius: 5px;
+    margin-top: 110px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+.pc2{
+    background-image: url('ol.jpg');
+    width: 210px;
+    height: 119px;
+    background-size: 210px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-color:transparent;
+    border-radius: 5px;
+    margin-top: 110px;
+    margin-left: 265px;
+    cursor: pointer;
+}
+.pc3{
+    background-image: url('ble.jpg');
+    width: 210px;
+    height: 119px;
+    background-size: 210px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-color:transparent;
+    border-radius: 5px;
+    margin-top: 110px;
+    margin-left: 480px;
+    cursor: pointer;
+}
+.pc4{
+    background-image: url('sp.jpg');
+    width: 210px;
+    height: 119px;
+    background-size: 210px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-color:transparent;
+    border-radius: 5px;
+    margin-top: 110px;
+    margin-left: 695px;
+    cursor: pointer;
+}
+.pc5{
+    background-image: url('kb.jpg');
+    width: 210px;
+    height: 119px;
+    background-size: 210px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-color:transparent;
+    border-radius: 5px;
+    margin-top: 110px;
+    margin-left: 910px;
+    cursor: pointer;
+}
+.pc6{
+    background-image: url('pb.jpg');
+    width: 210px;
+    height: 119px;
+    background-size: 210px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-color:transparent;
+    border-radius: 5px;
+    margin-top: 110px;
+    margin-left: 1125px;
+    cursor: pointer;
+}
+.logo1{
+    width: 35px;
+    height: 28px;
+    margin-left: 250px;
+    position: absolute;
+    margin-top: 300px;
+    cursor: pointer;
+}
+.logo2{
+    width: 35px;
+    height: 28px;
+    margin-left: 290px;
+    position: absolute;
+    margin-top: 300px;
+    cursor: pointer;
+}
+.logo3{
+    width: 35px;
+    height: 28px;
+    margin-left: 335px;
+    position: absolute;
+    margin-top: 300px;
+    cursor: pointer;
+}
+.logo4{
+    width: 35px;
+    height: 28px;
+    margin-left: 380px;
+    position: absolute;
+    margin-top: 300px;
+    cursor: pointer;
+}
+.ty{
+
+    color: rgb(179, 179, 179);
+    font-size: 11px;
+    margin-top: 350px;
+    margin-left: 200px;
+    margin-bottom: 10px;
+    display: flex;
+    cursor: pointer;
+}
+.ty p{
+    margin-bottom: 20px;
+}
+.ty p:hover{
+    text-decoration: underline;
+}
+ul{
+    margin-right: 90px;
+}
+.sc{
+    width: 90px;
+    height: 25px;
+    background-color: transparent;
+    color:rgb(179, 179, 179);
+    outline: none;
+    border:1px solid rgb(179, 179, 179);
+    cursor: pointer;
+    margin-left: 245px;
+    margin-bottom: 50px;
+}
+.sc:hover{
+    color: white;
+}
